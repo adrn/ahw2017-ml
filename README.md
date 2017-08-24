@@ -4,8 +4,12 @@
 
 This repository contains some Jupyter notebooks to accompany the Machine
 Learning tutorial session at
-[AstroHackWeek 2017](http://astrohackweek.org/2017/). Some other useful links:
+[AstroHackWeek 2017](http://astrohackweek.org/2017/).
 
-* [Data download (4.15 GB)]()
+* [Download data (4.15 GB)]()
 * [AstroHackWeek Github repo](https://github.com/AstroHackWeek/AstroHackWeek2017/)
 
+### Machine learning resources
+
+*
+*
