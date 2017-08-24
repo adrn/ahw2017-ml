@@ -25,3 +25,7 @@ Learning tutorial session at
 * scikit-learn [basic
   tutorial](http://scikit-learn.org/stable/tutorial/basic/tutorial.html) and
   [tutorial index](http://scikit-learn.org/stable/tutorial/index.html)
+* [Statistics, Data Mining, and Machine Learning in
+  Astronomy](http://press.princeton.edu/titles/10159.html) (textbook)
+
+
