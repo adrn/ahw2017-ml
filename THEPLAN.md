@@ -79,3 +79,6 @@
     * Coffee break and helping people with installation issues.
 * **11:00-12:00**:
     * Group working
+* **12:00-12:30**::
+    * Present results
+    * 3 minutes per group
