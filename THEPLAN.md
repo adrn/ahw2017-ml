@@ -38,7 +38,8 @@
 
 #### SDSS (BOSS) spectra:
 
-* 100,000 BOSS spectra from 100 plates (including sky fibers, etc.)
+* 100,000 BOSS spectra from 100 plates (including sky fibers, etc.) and their
+  inverse-variance arrays. All are on the same wavelength grid.
 * Catalog info from the spectroscopic pipeline for all targets (from
   `specObj-dr14.fits`)
 * Photometric info from the photometric pipeline for all targets (from the
@@ -46,7 +47,8 @@
 
 *Projects:*
 
-* TODO
+* (*supervised*) Predict colors from spectrum
+* (*unsupervised*) PCA the spectra themselves
 
 #### Gaia TGAS astrometry + 2MASS and WISE photometry:
 
