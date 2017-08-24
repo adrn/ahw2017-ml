@@ -16,5 +16,5 @@ Learning tutorial session at
 
 ### Machine learning resources
 
-*
+* See the [lecture notes](https://github.com/adrn/ahw2017-ml/blob/master/lecture-notes.md)
 *
