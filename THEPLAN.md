@@ -22,8 +22,9 @@
 * We then count out everyone else to randomize the room a bit
 * Within each group, each person will help with everything, but each person is
   the "lead" on a specific role (that they self-organize to assign):
-    * *Data munger*: Turn data into matrix X and vector y for supervised, matrix
-      X for unsupervised. Generate separate Train and Test data for supervised.
+    * *Data munger*: Turn data into matrix `X` and vector `y` for supervised,
+      matrix `X` only for unsupervised. Generate separate Train and Test data
+      for supervised.
     * *Model trainer*: Take data, train a scikit-learn model for their assigned
       method, experiment with any hyper-parameters
     * (**supervised**) *Cross-validator*: Improve the accuracy of the model by
