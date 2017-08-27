@@ -11,7 +11,8 @@
 
 * We form groups by asking questions of increasing difficulty until there are
   ~10 people with hands up
-* For example, "Keep your hand raise if you agree with the following statements":
+* For example, "Keep your hand raised if you agree with the following
+  statements":
     * I've used Python
     * I've used Python in my research
     * I've used Numpy
