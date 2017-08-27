@@ -16,16 +16,18 @@ The typical problems for which you might consider using machine learning methods
 can be grouped into four main types of problems:
 
 * **Supervised** methods:
-    * *Classification*: I have photometry for 100,000 sources from some
-      imaging survey and I want to know which ones are galaxies, stars, quasars
-    * *Regression*: I want to learn the parameters of some model, usually so I
-      can make good predictions.
+    * *Classification*: For example, we have photometry for 100,000 sources from
+      some imaging survey and want to know which ones are galaxies, stars,
+      quasars.
+    * *Regression*: We want to learn the parameters of some model, usually to
+      make good predictions.
 * **Unsupervised** methods:
-    * *Dimensionality reduction*: I have spectra for 100,000 galaxies and I want
-      to decompose the spectra into a mixture of stellar population models.
-    * *Clustering*: I have colors, sizes, and shapes for 100,000 galaxies and I
+    * *Dimensionality reduction*: We have spectra for 100,000 galaxies and want
+      to decompose the spectra into common spectral templates (eigenspectra).
+    * *Clustering*: We have colors, sizes, and shapes for 100,000 galaxies and
       want to know if there are sub-populations with similar characteristics.
-    * *Density estimation*: TODO
+    * *Density estimation*: We want to know the relative abundance of blue vs.
+      red galaxies given photometry.
 
 With supervised methods, our data are a set of "features" and some known
 "labels" for (a subset of) the data. That is, for a subset of the data, we know
@@ -79,12 +81,21 @@ A few relevant tools / algorithms:
 
 ### Regression
 
+Similar to classification, we want to train a model to predict some quantity or
+quantities given some set of "features." However, here the predicted quantity
+is typically a continuous variable instead of a discrete class.
+
 A few relevant tools / algorithms:
-*
+* Least-squares regression
+* Ridge regression
 
 ## Unsupervised methods
 
 ### Dimensionality reduction
+
+The goal of dimensionality reducton algorithms is to compress the data by
+finding a representation of the data that preserves "information" (or some other
+metric) with fewer dimensions.
 
 A few relevant tools / algorithms:
 * Principle components analysis (PCA)
