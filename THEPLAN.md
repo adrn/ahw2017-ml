@@ -30,8 +30,8 @@
       method, experiment with any hyper-parameters
     * *Cross-validator*: Improve the accuracy of the model by setting
       hyper-parameters using cross-validation.
-    * *Visualizer*: Make plots to visualize the results (TODO: give specific
-      plot suggestions)
+    * *Visualizer*: Make plots to visualize the results. We will have some more
+      specific suggestions...
     * *Presenter*: Summarize what your group did, show plots
 * Each group will do a supervised problem, and an unsupervised problem.
 
@@ -59,7 +59,7 @@
 
 *Projects:*
 
-* TODO
+* TBD
 
 ## Proposed plan:
 
